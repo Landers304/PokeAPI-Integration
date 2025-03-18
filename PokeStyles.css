@@ -1,0 +1,117 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ffcc00, #ff6699);
+    color: #333;
+    text-align: center;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+/* Dark Mode */
+.dark-mode {
+    background: linear-gradient(to right, #333, #555);
+    color: #fff;
+}
+
+/* Pokémon Banner */
+.banner {
+    background: url('https://staticg.sportskeeda.com/editor/2023/02/394a3-16769313907566-1920.jpg') center/cover no-repeat;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner h1 {
+    font-size: 3em;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Main Container */
+.container {
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+/* Card Layout for Navigation Options */
+.cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 15px;
+    margin: 20px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 250px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card h3 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.poke-button {
+    background: #ff0000;
+    border: 3px solid #000;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    margin-top: 20px;
+}
+
+.poke-button:hover {
+    background: #cc0000;
+}
+
+/* Footer */
+footer {
+    margin-top: 50px;
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+}
+
+footer a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Dark Mode Toggle */
+#dark-mode-toggle {
+    background: #444;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+#dark-mode-toggle:hover {
+    background: #222;
+}
